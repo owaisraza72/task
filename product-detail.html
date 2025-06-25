@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #eff0f5;
+      }
+
+      /* container-strt */
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 10px 30px;
+        margin-top: 8px;
+        background-color: #f85606;
+        width: 100%;
+        margin: 0px;
+        align-items:center
+      }
+
+      .main-contain {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px 4px 20px 10px;
+      }
+
+      /* container-end */
+
+      .logo {
+        width: 127px;
+        height: 40px;
+      }
+
+      .productimage {
+        width: 400px;
+        height: 400px;
+      }
+
+      #mainblock {
+        background-color: #fff;
+        width: 950px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+ 
+      }
+
+      .productprice {
+        font-size: 29px;
+        color: #f85606;
+      }
+      section {
+        width: 450px;
+        margin: 20px;
+      }
+
+      /* product button  */
+      #addcart {
+        background-color: #f85606;
+        color: white;
+        width:110px;
+        height:40px;
+        border:none
+        
+      }
+
+      
+      #btn1 {
+        background-color: #2abbe8;
+        color: white;
+        width:110px;
+        height:40px;
+        border:none
+        
+      }
+
+      /* end */
+
+      /* form k data start */
+
+      input {
+        width: 93%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: white;
+      }
+
+      #form {
+        margin: 15% 35%;
+        background-color: #c2bcbc;
+        padding: 10px 30px 5px;
+        border-radius: 20px;
+        box-shadow: 13px 13px 35px #2c2525;
+        font-weight: bold;
+        display: none;
+        position: relative;
+      }
+
+      h1 {
+        margin: 5px;
+      }
+
+      .btn2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 23px;
+        border-radius: 10px;
+        border: #ccc;
+        background-color: #f85606;
+        height: 42px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="https://lzd-img-global.slatic.net/us/domino/3b870cb043c7f8a9741cbf66329e294e.png"
+        alt="Online Shopping Daraz.PK Logo"
+        class="logo"
+      />
+      <section><input type="search" placeholder="Search in Daraz"/></section>
+    </div>
+
+    <div id="mainblock">
+      <img src="./1.jpg" class="productimage" id="cardimage"/>
+
+      <section>
+        <p class="product-description" style="margin: 10px 0px">
+          The death of Ettore Bugatti in 1947 proved to be a severe blow to the
+          marque, and the death of his son Jean in 1939.
+        </p>
+
+        <subsec>
+          <img
+            src="https://img.lazcdn.com/us/lazgcp/12c903f8-10fd-41d2-bca7-ce12a6371f1d_ALL-480-72.png_500x500q80.png_.webp"
+            alt="promotion"
+            class="pdp-mod-product-price-topbanner"
+          />
+
+          <div class="subsec1" style="margin: 10px 0px">
+            <span class="productprice"> Rs.2999 </span>
+            <br />
+            <span class="preprice"
+              ><strike style="color: #ccc"> Rs. 4500</strike> -77%
+            </span>
+          </div>
+
+          <button id="btn1">Buy Now</button>
+          <button id="addcart">Add to Cart</button>
+        </subsec>
+      </section>
+    </div>
+
+    <form id="form" class="animate__animated 
+animate__backInUp">
+      <h1>Login</h1>
+
+      <input type="email" id="email" placeholder="please Enter Your Phone & Email"/>
+
+      <input type="password" id="password" placeholder="Please Enter Your password"/>
+
+      <button type="submit" class="btn2">Login</button>
+    </form>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
