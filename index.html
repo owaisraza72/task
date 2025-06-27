@@ -1,163 +1,150 @@
-                    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
+
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-<style>
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-} 
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
 
-/* container-strt */
+      /* container-strt */
 
-/* nav-strt */
-.container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 10px 30px;
-  margin-top: 8px;
-  background-color:#f85606;
-  width:100%;margin:0px
-}
+      /* nav-strt */
+      .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 10px 30px;
+        background-color: #f85606;
+        width: 100%;
+        margin: 0px;
+        height:5.9em;
+        align-items:center
+      }
 
-.nav-item {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
+      .nav-item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
 
-.logo {
-  width: 127px;
-  height:40px
-}
+      .logo {
+        width: 140px;
+        height: 42px;
+      }
 
-ul {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-}
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+      }
 
-ul a {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
+      ul a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+      }
 
-@media (800px >= width) {
-  ul {
-    display: none;
-  }
-  section {
-    font-size: 20px;
-    order: -2;
-    display: flex;
-    align-items: center;
-  }
-  .logo {
-    width: 127px;
-    heigth:40px;
-  }
+      @media (800px >= width) {
+        ul {
+          display: none;
+        }
+        section {
+          font-size: 20px;
+          order: -2;
+          display: flex;
+          align-items: center;
+        }
+        .logo {
+          width: 127px;
+          heigth: 40px;
+        }
 
-  .container {
-    padding: 10px 10px;
-  }
+        .container {
+          padding: 10px 10px;
+        }
 
-  .btn1 {
-    font-size:xx-small
-  }
-}
+        .btn1 {
+          font-size: xx-small;
+        }
+      }
 
-@media (800px <= width) {
-  .container section {
-    display: none;
-  }
-}
+      @media (800px <= width) {
+        .container section {
+          display: none;
+        }
+      }
 
-.btn1,
-.btn2 {
-  color: white;
-  text-decoration: none;
-  border: 1px solid rgba(245, 143, 39, 1) 100%;
-  background: rgb(255, 211, 143);
-  background: linear-gradient(
-    286deg,
-    rgb(231, 183, 110) 0%,
-    rgba(245, 143, 39, 1) 100%
-  );
-  padding: 10px 20px;
-  border-radius: 30px;
-  align-items: center;
-}
+      .btn1,
+      .btn2 {
+        color: white;
+        text-decoration: none;
+        border: 1px solid rgba(245, 143, 39, 1) 100%;
+        background: rgb(255, 211, 143);
+        background: linear-gradient(
+          286deg,
+          rgb(231, 183, 110) 0%,
+          rgba(245, 143, 39, 1) 100%
+        );
+        padding: 10px 20px;
+        border-radius: 30px;
+        align-items: center;
+      }
 
-/* nav-end */
-
-.main-contain {
-  /* max-width: 1200px; */
-  margin: auto;
-  padding: 20px 4px 20px 10px;
-}
-
-/* container-end */
-
-/* para-content srt */
-
-.para-container {
-  display: flex;
-  margin-top: 0px;
-  justify-content: space-between;
-}
-
-@media (max-width: 800px) {
-  .para-container {
-    flex-wrap: wrap;
-  }
-}
-
-.content {
-  margin-top: 50px;
-  width: 30%;
-}
-
-@media (max-width: 500px) {
-  .content {
-    flex-wrap: wrap;
-    width: 800px;
-    margin-bottom: 50px;
-    justify-content: center;
-  }
-}
-
-.paragraph {
-  margin-top: 40px;
-  margin-bottom: 50px;
-  word-spacing: 5px;
-}
-
-.picture {
-  object-fit: cover;
-}
-
-/* para-container-end */
+      /* nav-end */
 
 
 
-/* image content start */
+      /* para-content srt */
 
+      .para-container {
+        margin:10px 0px 0px 40px;
+        justify-content: space-between;
+      }
+
+      @media (max-width: 800px) {
+        .para-container {
+          flex-wrap: wrap;
+        }
+      }
+
+
+      @media (max-width: 500px) {
+        .content {
+          flex-wrap: wrap;
+          width: 800px;
+          margin-bottom: 50px;
+          justify-content: center;
+        }
+      }
+
+      .paragraph {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        word-spacing: 5px;
+      }
+
+      .picture {
+        object-fit: cover;
+      }
+
+      /* para-container-end */
+
+      /* image content start */
 
       input {
-        width: 93%;
+        width: 40%;
         padding: 12px;
-        margin-bottom: 20px;
         border-radius: 10px;
         border: none;
         text-align: center;
@@ -166,54 +153,62 @@ ul a {
         background-color: white;
       }
 
- #imageContent{
-          display:flex
- }
+      #imageContent {
+        display: flex;
+      }
 
+      .img {
+        width: 300px;
+        height: 250px;
+      }
 
-.img{
-width:300px;
-height:250px;
+      /* 1st image card start  */
 
-}
+      .img-card1 {
+        width: 300px;
+        height: 380px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        border-radius: 30px;
+        margin: 40px;
+      }
 
+      .product-title {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 0px;
+      }
 
-          /* 1st image card start  */
+      .product-description {
+        overflow: auto;
+        max-height: 100px;
+        padding: 10px;
+        margin: 0px;
+      }
 
-.img-card1{
-width:300px;
-height:380px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;position: relative;
-  border-radius: 30px;
-  margin: 40px;
- 
-}
+      .product-price {
+        visibility: hidden;
+      }
 
-
-.product-title {
-  text-align: center; font-size: 1.5em;margin:0px
-}
-
-.product-description{overflow: auto;max-height: 100px;padding:10px;margin:0px}
-
-.product-price{visibility: hidden;  }
-
-.img-card1:hover .product-price{visibility: visible; padding:10px;cursor:pointer}
-
-
-
-</style>
-
-    
+      .img-card1:hover .product-price {
+        visibility: visible;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
   </head>
-          
+
   <body>
- <div class="container main-contain">
-      <img src="https://lzd-img-global.slatic.net/us/domino/3b870cb043c7f8a9741cbf66329e294e.png" alt="Online Shopping Daraz.PK Logo" class="logo">
-      <section>
-<input type="search" placeholder="Search in Daraz">
-      </section>
+    <div class="container main-contain">
+      <img
+        src="https://lzd-img-global.slatic.net/us/domino/3b870cb043c7f8a9741cbf66329e294e.png"
+        alt="Online Shopping Daraz.PK Logo"
+        class="logo"
+      />
+      
+        <input type="search" placeholder="Search in Daraz" />
+      
       <!-- <nav class="nav-item">
         <ul>
           <li class="list-link">About</li>
@@ -235,134 +230,84 @@ height:380px;
 
     <div class="para-container main-contain">
       <div class="content">
-        <img src="https://img.lazcdn.com/us/domino/428da876-3fd6-4d3b-b88d-db97a1970bb1_PK-1976-688.jpg_2200x2200q80.jpg_.webp" style="object-fit:cover" width="990px" height="350px">
+        <img
+          src="https://img.lazcdn.com/us/domino/428da876-3fd6-4d3b-b88d-db97a1970bb1_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+          style="object-fit: cover"
+          width="990px"
+          height="350px"
+        />
 
-        <a href="" class="btn2">Get Started</a>
+      </div>
+      <!-- <img class="picture" src="pic.png" alt="" /> -->
+    </div>s
+
+
+
+    <div id="imageContent">
+      <div class="img-card1" id="cardimg1">
+        <img
+          src="./1.jpg"
+          class="img animate__animated animate__pulse"
+          id="img1"
+        />
+        <!-- <h2 class="product-title">Jordan Shoes</h2> -->
+        <p class="product-description" id="cartpara">
+          Jordan shoes, also known as Air Jordans, are a line of basketball and
+          sportswear shoes, apparel, and accessories produced by Nike, Inc.
+        </p>
+
+        <span class="product-price" id="cartprice"> Rs.9500 </span>
       </div>
 
-      <img class="picture" src="pic.png" alt="" />
-    </div>
 
 
-    
+      <div class="img-card1" id="cardimg2">
+        <img
+          src="./2.jpg"
+          class="img animate__animated animate__pulse"
+          id="img2"
+        />
 
+        <p>
+          Shoes NIKE AIR JORDAN 1 RED/BLACK Only meet in public / crowded places
+          such as metro stations and malls.
+        </p>
 
-    
-<div id="imageContent">
-
-    <div class="img-card1" >
-    
-    <img src="./1.jpg" class="img animate__animated animate__pulse" id="img1">
-<!-- <h2 class="product-title">Jordan Shoes</h2> -->
-      <p class="product-description">
-        The death of Ettore Bugatti in 1947 proved to be a severe blow to the
-        marque, and the death of his son Jean in 1939.
-      </p>
-      
-      <span class="product-price"> Rs.2999 </span>
-      
+        <span class="product-price"> Rs.6000 </span>
       </div>
-    
 
-    <div class="img-card1" class="animate__animated animate__pulse">
-    
-    <img src="./2.jpg" class="img" id="img2">
 
-    <p>Walkend || Sneakers for men || shoes for men || New stylish sneakers for men || Airjordans Premium Mens Sneakers</p>
-    
-      <span class="product-price"> Rs.1199 </span>
-    
+
+
+      
+
+      <div class="img-card1">
+        <img src="./3.webp" class="img animate__animated animate__pulse" id="cardimg3" />
+
+        <p>
+          Newmine Wireless Bluetooth Airpods Stereo Earbuds for All Cell Phones Transparent TPU Protective Case  </p>
+
+        <span class="product-price"> Rs.2500 </span>
+      </div>
+
+
+
+
+
+      <div class="img-card1">
+        <img src="./4.webp" class="img animate__animated animate__pulse" id="cardimg4" />
+
+        <p>
+          A legacy of excellence, style, and cultural impact, embodying Michael
+          Jordan's athletic achievements and the spirit of perseverance.
+        </p>
+
+        <span class="product-price"> Rs.11999 </span>
+      </div>
     </div>
 
-
-    <div class="img-card1" class="animate__animated animate__pulse">
-
-     <img src="./3.jpg" class="img" id="img3"> 
-     
-    <p>Walkend || Sneakers for men || shoes for men || New stylish sneakers for men || Airjordans Premium Mens Sneakers</p>
-    
-      <span class="product-price"> Rs.4999 </span>
-    
-    </div>
-
-
-    <div class="img-card1" class="animate__animated animate__bounce">
-
-     <img src="./4.webp" class="img" id="img4"> 
-     
-    <p>Walkend || Sneakers for men || shoes for men || New stylish sneakers for men || Airjordans Premium Mens Sneakers</p>
-    
-      <span class="product-price"> Rs.4999 </span>
-    
-    </div>
-
-
-
-</div>
-    
     <!-- <img src="./5.jpg"> -->
-              
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="./app.js"
-    ></script>
+    <script src="./app.js"></script>
   </body>
 </html>
